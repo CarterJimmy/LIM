@@ -58,3 +58,6 @@ Run `hexo deploy -g` to apply new theme for your Page
 </div>
 
 ***
+
+### Inspired Model
+This Theme is based [Daily](https://github.com/GallenHu/hexo-theme-Daily) by [GallenHu](https://github.com/GallenHu)
