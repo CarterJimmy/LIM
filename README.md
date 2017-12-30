@@ -19,12 +19,14 @@ LIM, it is an abbreviations of “_Less is more_”. A sophisticated morden flat
 - [ ] Picture Display Effect Rebuild
 - [x] Change Markdown Render Engine
 - [x] Support Checkbox With MD
+- [x] Added Button For Click2Load Disqus
 
 ### STATE OF BACK-END DEVELOP
  - "[✓]" Means Finished "[ ]" Means Haven't Finished.
 
 - [x] Optimise Footer.ejs & config.yml Efficiency
 - [x] ~~Local Comments System Build~~ Support Disqus
+- [x] Support Lazyload
 - [ ] Local Search System Build
 - [ ] Optimice CSS & JS Animation Performance    
 
@@ -114,3 +116,5 @@ markdown:
 
 ### Inspired Model
 This Theme is based [Daily](https://github.com/GallenHu/hexo-theme-Daily) by [GallenHu](https://github.com/GallenHu)
+
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)

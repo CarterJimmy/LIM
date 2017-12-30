@@ -3,6 +3,13 @@
   <!-- <h1 class="title"><%= __('comment') %></h1> -->
 
   <% if(config.disqus_shortname) { %>
+
+    <div style="text-align:center;">
+      <button  id="load-disqus" onclick="disqus.load();">加载 Disqus 评论 (请确保能正常访问Disqus) </button>
+    </div>
+<!-- Definition For Click2Load Disqus -->
+<!-- 点击加载Disqus评论设置 -->
+
   <div id="disqus_thread">
     <script type="text/javascript">
     var disqus_config = function () {
@@ -13,6 +20,7 @@
     </script>
     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   </div>
+
 
   <% } else if (config.duoshuo_shortnam) { %>
     <!-- 多说评论框 start -->

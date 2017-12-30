@@ -1,12 +1,12 @@
 # basic
-title:
-subtitle:
-favicon: https://hexo.io/icon/favicon-96x96.png
+title: Carter's Blog
+subtitle: Think Different
+favicon: https://d1ax1i5f2y3x71.cloudfront.net/items/193o401U3a2E2d073D0B/favicon.png
 
 # avatar: images/avatar.png
 # banner_small: images/banner-small.png
 # banner_large: images/banner-large.png
-logo: https://hexo.io/logo.svg
+logo: https://d1ax1i5f2y3x71.cloudfront.net/items/193o401U3a2E2d073D0B/favicon.png
 
 # disqus
 #disqus_shortname: drakeleung
@@ -21,6 +21,7 @@ highlight:
 nav:
   Home: .
   Archive: archives
+  Links: /links
   About: /about
   RSS: atom.xml
   # about: about
@@ -37,8 +38,21 @@ default_post_title: Untitled
 
 # social
 social:
-  #github: https://github.com/CarterJimmy
-  #flickr: https://www.flickr.com/photos/146675969@N03/
+  github: https://github.com/CarterJimmy
+  flickr: https://www.flickr.com/photos/146675969@N03/
+  telegram: https://t.me/carterjimmy/
+
+  # weibo: http://weibo.com/10010800
+  # mail: mailto:gallenhu@foxmail.com
+  # twitter: https://twitter.com/GallenHu
+
+
+#local_search
+#定义搜索
+search:
+  path: search.xml
+  field: post
+
 
 # RSS FeedSetting
 rss: /atom.xml
@@ -47,12 +61,16 @@ rss: /atom.xml
 local_search:
   enable: true
 
+# 评论
+disqus_shortname: carters-blog
+
+
 
 # widget
 #   title: 标题
-#   content: 内容(Delete *** And Change Into your content)
+#   content: 内容
 widget:
   title: About
-  content: <div><a align="center">***</a></div>
+  content: <div><a align="center">专注记录技术与生活</a></div>
 
-footer: Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> with Theme <a href="https://github.com/CarterJimmy/LIM" target="_blank">LIM</a> inpired by <a href="https://github.com/GallenHu/hexo-theme-Daily" target="_blank">Daily</a>
+footer: Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> with Theme <a href="https://github.com/GallenHu/hexo-theme-Daily" target="_blank">Daily</a>
